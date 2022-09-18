@@ -65,8 +65,55 @@ button {
 
 }
 
-button i {
+/* button i {
     padding-left: 15px;
+} */
+
+/*------ 
+    Live button animation 
+    --------*/
+.live-btn {
+    border-radius: 5px;
+    height: 46px;
+    width: 147px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(221, 0, 0, 1);
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    /* position: absolute; */
+    transition: 0.5s;
+}
+
+.live-btn:hover {
+    padding-left: 0px;
+    padding-right: 40px;
+
+}
+
+.live-btn span {
+    position: absolute;
+    left: 115px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.live-btn:hover span {
+
+    margin-left: -5px;
+    left: calc(100% - 82%);
+
 }
 
 /*------ 
