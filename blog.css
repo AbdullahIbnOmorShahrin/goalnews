@@ -5,57 +5,63 @@ body {
     justify-content: center;
     padding: 0;
     margin: 0;
-    /* align-items: center; */
-    /* justify-items: left; */
 }
+
 
 /*------ 
     Top banner section 
     --------*/
 
 .top-banner {
-    margin: 30px;
+    margin-top: 5%;
     position: absolute;
-    background-color: black;
-    height: 500px;
-    width: 1050px;
+    background-color: rgb(23, 23, 23);
+    height: 78.9%;
+    width: 88.5%;
     border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
-    padding-left: 100px;
+}
+
+.banner-parts-right {
+    size: 100%;
 }
 
 .banner-parts-right img {
 
-    padding-top: 26.5px;
-    width: 100%;
-    max-width: 450px;
-    height: auto;
+    padding-top: 4.65%;
+    width: 85.7%;
+    height: 85.4%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.banner-parts-left {
+    size: 100%;
+    padding-top: 7%;
+    padding-left: 15%;
+
 }
 
 .banner-parts-left h1 {
-    width: 350px;
-    left: 100px;
-    top: 161px;
+    width: 90%;
+    height: 37%;
     font-weight: 900;
-    font-size: 55px;
-    line-height: 70px;
-    margin-bottom: 0;
-    padding-top: 20px;
+    font-size: 3.5em;
+    line-height: 1.2em;
 }
 
 .banner-parts-left h4 {
 
     font-weight: 50;
     line-height: 25px;
-    margin: 30px 0px;
+    margin: 5% 0px;
 
 }
 
 button {
     border-radius: 5px;
-    /* border: none; */
     height: 46px;
     width: 147px;
     color: rgba(255, 255, 255, 1);
@@ -65,9 +71,6 @@ button {
 
 }
 
-/* button i {
-    padding-left: 15px;
-} */
 
 /*------ 
     Live button animation 
@@ -83,8 +86,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 40px;
-    /* position: absolute; */
+    padding-left: 30px;
     transition: 0.5s;
 }
 
@@ -96,7 +98,7 @@ button {
 
 .live-btn span {
     position: absolute;
-    left: 115px;
+    left: 100px;
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -104,7 +106,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
     transition: 0.5s ease-in-out;
 
 }
@@ -122,25 +123,17 @@ button {
 
 .blogs-container {
     padding: 0;
-    margin-top: 600px;
-    height: 600px;
+    margin-top: 51%;
     position: absolute;
     padding-bottom: 30px;
-    /* background-color: rgb(235, 212, 212); */
-    /* height: 500px; */
-    width: 1150px;
+    width: 88.5%;
     border-radius: 15px;
     display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* color: white; */
-    /* padding-left: 100px; */
 }
 
 .options {
-    /* position: sticky; */
-    background-color: black;
+    background-color: rgb(23, 23, 23);
     padding: auto;
-    /* color: black; */
     height: 250px;
     width: 265px;
     margin: 0;
@@ -151,14 +144,11 @@ button {
 }
 
 .options button {
+    border: 0px;
     border-radius: 5px;
     margin: auto;
-
-    /* border: 0; */
     height: 45px;
     width: 220px;
-    /* color: black; */
-    /* background-color: white; */
     font-weight: 600;
     font-size: 16px;
 }
@@ -166,7 +156,6 @@ button {
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* background-color: white; */
 }
 
 .blog {
@@ -179,23 +168,11 @@ button {
     background-color: white;
     height: 312px;
     width: 276px;
-    /* border: none; */
-    /* border-bottom: 50px solid red; */
-
-    /* color: white; */
 }
 
 .blog-img img {
-    /* scale: 1.1; */
     width: 100%;
     margin-bottom: 5px;
-    /* padding: 10px 1px 10px 10px; */
-    /* margin-top: -2px;
-    margin-right: -3px;
-    margin-left: -2px; */
-    /* padding-right: -5px; */
-    /* border: 0; */
-    /* scale: 3px; */
 }
 
 .transfer-bnt button {
@@ -205,7 +182,6 @@ button {
     border-color: rgb(22, 21, 21);
     background-color: white;
     color: black;
-    /* text-decoration-color: black; */
     margin: 10px 15px;
 }
 
@@ -215,14 +191,10 @@ button {
 
 .blog-icons {
     margin-top: 15px;
-    /* display: flex; */
-    /* justify-content: space-around; */
 }
 
 .blog-icons span {
     display: inline;
-    /* position: inline; */
-    /* flex-direction: row; */
     justify-content: space-evenly;
     margin: 40px 15px;
 }
@@ -244,8 +216,6 @@ button {
 }
 
 #view-btn {
-    /* display: flex;
-    justify-content: center; */
     border: none;
 
 }
@@ -260,7 +230,6 @@ button {
     margin: 0;
     height: 380px;
     margin-top: 1690px;
-    /* color: red; */
 }
 
 .goal {
@@ -268,7 +237,6 @@ button {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    /* text-size-adjust: auto; */
     font-weight: bolder;
     margin-top: 110px;
     margin-bottom: 50px;
@@ -286,11 +254,13 @@ button {
 
 .footer-contents {
     display: flex;
-    /* flex-direction: column; */
-    /* grid-template-columns: repeat(6, 1fr); */
     margin: 40px 200px;
     justify-content: center;
+}
 
+.footer-contents a {
+
+    text-decoration: none;
     color: #B9B9B9;
 }
 
@@ -309,4 +279,273 @@ button {
     margin: 10px 40px 10px 40px;
     size: 25px;
     color: whitesmoke;
+}
+
+/*------ 
+    media quire for responsiveness 
+    --------*/
+
+/*------ 
+            media quire for mobile view
+            --------*/
+
+@media only screen and (max-width: 376px) {
+    .top-banner {
+        margin-top: 5%;
+        position: absolute;
+        background-color: rgb(23, 23, 23);
+        height: 80%;
+        width: 88.5%;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        /* grid-template-rows: repeat(2, 1fr); */
+        color: white;
+        justify-content: center;
+    }
+
+    .banner-parts-left h1 {
+        /* text-justify: inter-word;  */
+        text-align: center;
+        padding-left: 20%;
+        justify-content: center;
+        width: 50%;
+        height: 20%;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin-bottom: 10%;
+        margin-top: 20%;
+    }
+
+    .banner-parts-left h4 {
+        margin-top: 20%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 30;
+        line-height: 1.3em;
+        font-size: smaller;
+
+    }
+
+    .banner-parts-right img {
+        padding-left: 10%;
+        /* padding-top: %; */
+        width: 80%;
+        height: 78.4%;
+    }
+
+    .live-btn {
+
+        padding-left: 20px;
+
+    }
+
+    .live-btn span {
+        left: 18%;
+    }
+
+    .live-btn:hover span {
+
+        margin-left: -5px;
+        left: calc(100% - 78%);
+
+    }
+
+
+
+    .blogs-container {
+        padding: 0;
+        margin-top: 160%;
+        height: 50px;
+        width: 88.5%;
+        flex-direction: column;
+    }
+
+    .options {
+
+        background-color: white;
+        height: 180px;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        flex-direction: column;
+    }
+
+    .options button {
+        border: 2px solid rgba(232, 232, 232, 1);
+        color: black;
+        border-color: red(232, 232, 232, 1);
+        border-radius: 5px;
+        background-color: white;
+        height: 45px;
+        width: 32%;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgba(232, 232, 232, 1);
+        background-color: white;
+        height: 85%;
+        width: 100%;
+    }
+
+    .footer-container {
+        background-color: rgba(22, 22, 22, 1);
+        width: 100%;
+        margin: 0;
+        height: 390px;
+        margin-top: 1150%;
+    }
+
+    .footer-contents {
+        display: flex;
+        margin: 5% 10%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    body {
+        background-color: lightblue;
+    }
+}
+
+/*------ 
+    media quire for tab view 
+    --------*/
+@media only screen and (min-width: 503px) and (max-width: 884px) {
+
+
+    .banner-parts-left h1 {
+        width: 85%;
+        height: 30%;
+        font-weight: 900;
+        font-size: 2.3em;
+        line-height: 1.2em;
+    }
+
+    .banner-parts-left h4 {
+
+        font-weight: 50;
+        margin: 10% 2%;
+
+    }
+
+    .banner-parts-right img {
+        padding-left: 10%;
+        padding-top: 10%;
+        width: 80%;
+        height: 92.3%;
+    }
+
+    .live-btn {
+
+        padding-left: 30px;
+
+    }
+
+    .live-btn span {
+        left: 9.5%;
+    }
+
+    .live-btn:hover span {
+
+        margin-left: -5px;
+        left: calc(100% - 78%);
+
+    }
+
+    button {
+        border-radius: 5px;
+        height: 46px;
+        width: 147px;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(221, 0, 0, 1);
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .options {
+
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        flex-direction: row;
+    }
+
+    .options button {
+        border: 2px solid rgba(232, 232, 232, 1);
+        color: black;
+        border-color: red(232, 232, 232, 1);
+        border-radius: 5px;
+        background-color: white;
+        height: 45px;
+        width: 32%;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .blogs-container {
+        padding: 0;
+        margin-top: 72%;
+        width: 88.5%;
+        flex-direction: column;
+    }
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 20%;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgba(232, 232, 232, 1);
+        background-color: white;
+        height: 97%;
+        width: 98%;
+    }
+
+    .blog-img img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .footer-container {
+        background-color: rgba(22, 22, 22, 1);
+        width: 100%;
+        margin: 0;
+        height: 380px;
+        margin-top: 340%;
+    }
+
+    .footer-contents {
+        display: flex;
+        margin: 5% 10%;
+        justify-content: center;
+    }
+
+
 }
