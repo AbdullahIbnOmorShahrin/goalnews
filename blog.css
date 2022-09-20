@@ -68,6 +68,7 @@ button {
     background-color: rgba(221, 0, 0, 1);
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
 
 }
 
@@ -151,6 +152,14 @@ button {
     width: 220px;
     font-weight: 600;
     font-size: 16px;
+    color: black;
+    background-color: white;
+    /* text-decoration: none; */
+}
+
+.options button a {
+    text-decoration: none;
+    color: black;
 }
 
 .blogs {
@@ -292,6 +301,7 @@ button {
 @media only screen and (max-width: 376px) {
     .top-banner {
         margin-top: 5%;
+        margin-bottom: 0%;
         position: absolute;
         background-color: rgb(23, 23, 23);
         height: 80%;
@@ -299,13 +309,15 @@ button {
         border-radius: 15px;
         display: flex;
         flex-direction: column;
-        /* grid-template-rows: repeat(2, 1fr); */
         color: white;
         justify-content: center;
     }
 
     .banner-parts-left h1 {
-        /* text-justify: inter-word;  */
+        justify-content: center;
+    }
+
+    .banner-parts-left h1 {
         text-align: center;
         padding-left: 20%;
         justify-content: center;
@@ -331,7 +343,6 @@ button {
 
     .banner-parts-right img {
         padding-left: 10%;
-        /* padding-top: %; */
         width: 80%;
         height: 78.4%;
     }
@@ -339,17 +350,19 @@ button {
     .live-btn {
 
         padding-left: 20px;
+        margin-left: 18%;
+        /* justify-content: center; */
 
     }
 
     .live-btn span {
-        left: 18%;
+        left: 33%;
     }
 
     .live-btn:hover span {
 
         margin-left: -5px;
-        left: calc(100% - 78%);
+        left: calc(100% - 100%);
 
     }
 
@@ -380,9 +393,10 @@ button {
         border-radius: 5px;
         background-color: white;
         height: 45px;
-        width: 32%;
+        width: 80%;
         font-weight: 600;
         font-size: 16px;
+        margin: 1% 1%;
     }
 
     .blogs {
@@ -413,14 +427,12 @@ button {
 
     .footer-contents {
         display: flex;
-        margin: 5% 10%;
+        margin: 4% 5%;
         flex-direction: column;
         justify-content: center;
     }
 
-    body {
-        background-color: lightblue;
-    }
+
 }
 
 /*------ 
